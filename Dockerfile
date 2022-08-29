@@ -16,7 +16,7 @@ RUN set -x \
         linux-pam-dev \
  && cd /tmp \
     # https://www.inet.no/dante/download.html
- && curl -L https://www.inet.no/dante/files/dante-1.4.2.tar.gz | tar xz \
+ && curl -L https://www.inet.no/dante/files/dante-1.4.3.tar.gz | tar xz \
  && cd dante-* \
     # See https://lists.alpinelinux.org/alpine-devel/3932.html
  && ac_cv_func_sched_setscheduler=no ./configure \
